@@ -163,7 +163,7 @@ export default function SignatureForm(props) {
       return (
         <Snackbar open={true} autoHideDuration={6000}>
           <Alert severity="success">
-             Done, Thank you for your support!
+             Done, thank you for your support!
           </Alert>
         </Snackbar>
       );
@@ -192,7 +192,7 @@ export default function SignatureForm(props) {
             <TextField
               id="firstname"
               name="firstname"
-              label="First Name"
+              label="First name"
               className={classes.textField}
               placeholder="eg. Leonardo"
     autoComplete="given-name"
@@ -209,7 +209,7 @@ export default function SignatureForm(props) {
             <TextField
               id="lastname"
               name="lastname"
-              label="Last Name"
+              label="Last name"
     autoComplete="family-name"
               className={classes.textField}
               variant={options.variant}
@@ -240,8 +240,8 @@ export default function SignatureForm(props) {
             <TextField
               id="postcode"
               name="postcode"
-              label="Postal Code"
-    autoComplete="postal-code"
+              label="Post code"
+    autoComplete="post-code"
               inputRef={register}
               className={classes.textField}
               variant={options.variant}
